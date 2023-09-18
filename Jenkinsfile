@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {nodejs "node"}
     environment {
-    imageName = benjayyy/jenkins_ufl.
+    imageName = benjayyy/jenkins_ufl
     dockerCredentialsName='dockerhub-creds'
     dockerImage = ''
     }
